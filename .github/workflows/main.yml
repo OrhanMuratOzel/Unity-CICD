@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'  
 
-                  jobs:
+jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
